@@ -1,0 +1,31 @@
+algoritmo "ritual_da_manha"
+inicio
+ 
+   inteiro hora
+   logico despertador
+
+  
+   escreva("O despertador tocou? (1 para sim, 0 para não): ")
+   leia(despertador)
+
+   se (despertador = 1) então
+      
+      escreva("Digite a hora em que você acordou (0 a 23): ")
+      leia(hora)
+
+     
+      escreva("Bom dia! Vamos começar o ritual da manhã.\n")
+
+      escreva("Desligando o despertador...\n")
+      escreva("Levantando da cama...\n")
+      escreva("Escovando os dentes...\n")
+      escreva("Tomando café da manhã...\n")
+
+  
+      escreva("Agora você está pronto para começar o dia!\n")
+      
+   senao
+      escreva("Você ainda está dormindo...\n")
+   fimse
+
+fimalgoritmo
