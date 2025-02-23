@@ -2,14 +2,14 @@ public class PessoaFisica extends Pessoa {
     private String cpf;
     private String dataNascimento;
 
-    // Construtor
+
     public PessoaFisica(String nome, String endereco, String telefone, String cpf, String dataNascimento) {
         super(nome, endereco, telefone);
         this.cpf = cpf;
         this.dataNascimento = dataNascimento;
     }
 
-    // Getters e Setters
+ 
     public String getCpf() {
         return cpf;
     }
@@ -26,7 +26,7 @@ public class PessoaFisica extends Pessoa {
         this.dataNascimento = dataNascimento;
     }
 
-    // Implementando o método abstrato
+  
     @Override
     public void exibirInformacoes() {
         System.out.println("Pessoa Física: ");

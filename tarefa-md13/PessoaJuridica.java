@@ -4,14 +4,14 @@ public class PessoaJuridica extends Pessoa {
     private String cnpj;
     private String razaoSocial;
 
-    // Construtor
+
     public PessoaJuridica(String nome, String endereco, String telefone, String cnpj, String razaoSocial) {
         super(nome, endereco, telefone);
         this.cnpj = cnpj;
         this.razaoSocial = razaoSocial;
     }
 
-    // Getters e Setters
+
     public String getCnpj() {
         return cnpj;
     }
@@ -28,7 +28,6 @@ public class PessoaJuridica extends Pessoa {
         this.razaoSocial = razaoSocial;
     }
 
-    // Implementando o método abstrato
     @Override
     public void exibirInformacoes() {
         System.out.println("Pessoa Jurídica: ");

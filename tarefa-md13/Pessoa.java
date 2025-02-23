@@ -3,14 +3,14 @@ public abstract class Pessoa {
     private String endereco;
     private String telefone;
 
-    // Construtor
+  
     public Pessoa(String nome, String endereco, String telefone) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
     }
 
-    // Getters e Setters
+
     public String getNome() {
         return nome;
     }
@@ -35,6 +35,6 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
-    // Método abstrato que será implementado nas subclasses
+
     public abstract void exibirInformacoes();
 }
